@@ -10,11 +10,14 @@ For information on voice, coding, check out the [vocalize](https://github.com/jo
 
    ```sh
    cd api
+   pip install -r requirements.txt
    make start
    ```
 
 2. Start the ui
 
    ```sh
+   cd ui
+   npm install
    npm run dev
    ```
