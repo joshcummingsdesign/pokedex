@@ -1,0 +1,12 @@
+.item {
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid black;
+  max-width: 800px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.name {
+  font-weight: bold;
+}
