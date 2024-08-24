@@ -1,6 +1,6 @@
 .item {
   justify-content: space-between;
-  padding: 10px;
+  padding: 20px;
   border: 1px solid black;
   max-width: 800px;
   margin-bottom: 10px;
@@ -9,4 +9,7 @@
 
 .name {
   font-weight: bold;
+  display: block;
+  text-decoration: none;
+  color: dodgerblue;
 }

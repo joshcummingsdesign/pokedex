@@ -3,12 +3,13 @@ import styles from "./styles.module.css";
 
 interface Props {
   name: string;
-  type: string;
+  url: string;
 }
 
-export const Item: FC<Props> = ({ name, type }) => (
+export const Item: FC<Props> = ({ name, url }) => (
   <div className={styles.item}>
-    <p className={styles.name}>{name}</p>
-    <p>{type}</p>
+    <a className={styles.name} href={url} target="_blank">
+      {name}
+    </a>
   </div>
 );

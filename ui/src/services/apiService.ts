@@ -6,7 +6,7 @@ export const apiService = createApi({
   reducerPath: "api",
   baseQuery: fetchBaseQuery({ baseUrl: config.VITE_API_URL }),
   endpoints: (builder) => ({
-    getPokemon: builder.query<{ data: Pokemon[] }, void>({
+    getPokemon: builder.query<{ results: Pokemon[] }, void>({
       query: () => "/pokemon",
     }),
   }),
