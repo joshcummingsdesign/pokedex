@@ -6,18 +6,7 @@ For information on voice, coding, check out the [vocalize](https://github.com/jo
 
 ## Getting started
 
-1. Start the api
-
-   ```sh
-   cd api
-   pip install -r requirements.txt
-   make start
-   ```
-
-2. Start the ui
-
-   ```sh
-   cd ui
-   npm install
-   npm run dev
-   ```
+```sh
+npm install
+npm run dev
+```
